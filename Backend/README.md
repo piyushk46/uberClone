@@ -128,7 +128,7 @@ The request body should be in JSON format and include the following fields:
 - `captain` (object):
   - `fullname` (object).
     - `firstname` (string): Captain's first name (minimum 3 characters).
-    - `lastname` (string): Captain's last name (minimum 3 characters).   
+    - `lastname` (string): Captain's last name (minimum 3 characters).
   - `email` (string): Captain's email address (must be a valid email).
   - `password` (string): Captain's password (minimum 6 characters).
   - `vehicle` (object):
@@ -164,7 +164,7 @@ The request body should be in JSON format and include the following fields:
 - `captain` (object):
   - `fullname` (object).
     - `firstname` (string): Captain's first name (minimum 3 characters).
-    - `lastname` (string): Captain's last name (minimum 3 characters).   
+    - `lastname` (string): Captain's last name (minimum 3 characters).
   - `email` (string): Captain's email address (must be a valid email).
   - `password` (string): Captain's password (minimum 6 characters).
   - `vehicle` (object):
@@ -194,7 +194,7 @@ Requires a valid JWT token in the Authorization header:
 - `captain` (object):
   - `fullname` (object).
     - `firstname` (string): Captain's first name (minimum 3 characters).
-    - `lastname` (string): Captain's last name (minimum 3 characters).   
+    - `lastname` (string): Captain's last name (minimum 3 characters).
   - `email` (string): Captain's email address (must be a valid email).
   - `vehicle` (object):
     - `color` (string): Vehicle color.
