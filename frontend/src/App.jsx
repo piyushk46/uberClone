@@ -4,10 +4,13 @@ import Start from './pages/Start'
 import UserLogin from './pages/UserLogin'
 import UserSignup from './pages/UserSignup'
 import Captainlogin from './pages/Captainlogin'
-import Captainsignup from './pages/Captainsignup'
+import Captainsignup from './pages/CaptainSignup'
 import Home from './pages/Home'
 import UserProtectWrapper from './pages/UserProtectWrapper'
 import UserLogout from './pages/UserLogout'
+import CaptainHome from './pages/CaptainHome'
+import CaptainProtectWrapper from './pages/CaptainProtectWrapper'
+import CaptainLogout from './pages/CaptainLogout'
 
 
 const App = () => {
@@ -27,6 +30,17 @@ const App = () => {
         <Route path='/user/logout' element={<UserProtectWrapper>
           <UserLogout />
         </UserProtectWrapper>
+        } />
+        <Route path='/captain-home' element={
+          <CaptainProtectWrapper>
+            <CaptainHome />
+          </CaptainProtectWrapper>
+
+        } />
+        <Route path='/captain/logout' element={
+          <CaptainProtectWrapper>
+            <CaptainLogout />
+          </CaptainProtectWrapper>
         } />
       </Routes>
     </div>
